@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <div className="app">
         <input onChange={(e) => this.handleChange(e.target.value)} />
-        <span>{JSON.stringify(this.state.userInput, null, 10)}</span>
+        <h3>{JSON.stringify(this.state.userInput, null, 10)}</h3>
       </div>
 
     );
